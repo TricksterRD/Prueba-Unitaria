@@ -1,4 +1,4 @@
-const sayHello = require('../index');
+const sayHello = require('./index');
 
 test('Debe retornar "Hola Mundo"', () => {
     expect(sayHello()).toBe("Hola Mundo");
